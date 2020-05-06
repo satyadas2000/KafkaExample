@@ -13,7 +13,7 @@ public class DeliveryPublisher {
 	@Autowired
     private ObjectMapper objectMapper;
 
-    @Autowired
+    @Autowired 
     private KafkaTemplate kafkaTemplate;
 
     

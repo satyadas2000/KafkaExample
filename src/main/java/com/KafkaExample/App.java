@@ -39,8 +39,7 @@ public class App
 
     
     private String topicName="customer";
-    
-    
+        
     @Bean
     public ObjectMapper mapper(){
         return new ObjectMapper();

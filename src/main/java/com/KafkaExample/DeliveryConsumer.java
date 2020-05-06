@@ -15,7 +15,7 @@ public class DeliveryConsumer implements IDeliveryMessging {
 
 
     @Autowired
-    private ObjectMapper objectMapper;
+    private ObjectMapper objectMapper; 
     
     @Override
     public void consumeMessage(String content) {

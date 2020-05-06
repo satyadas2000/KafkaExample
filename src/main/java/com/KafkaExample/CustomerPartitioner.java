@@ -32,7 +32,7 @@ public class CustomerPartitioner implements Partitioner{
 
 		  if(categoryToPartitionMap.containsKey(key)){
               //If the country is mapped to particular partition return it
-              return categoryToPartitionMap.get(key);
+              return categoryToPartitionMap.get(key); 
           }else {
               //If no country is mapped to particular partition distribute between remaining partitions
               int noOfPartitions = cluster.topics().size();

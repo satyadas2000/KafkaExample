@@ -8,6 +8,7 @@ public class Customer implements Serializable{
 	private String name;
 	private String category;
 
+	
 
 	private String addr;
 
